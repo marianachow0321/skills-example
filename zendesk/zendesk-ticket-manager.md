@@ -4,7 +4,7 @@ display_name: Zendesk Ticket Manager
 description: "Creates a Zendesk ticket, or adds a comment to an existing one, with content that renders as real HTML, and optionally sets custom field values. Use when a Zendesk ticket needs formatted rich-text content (headings, bold, italic, lists, links) rather than plain text, or needs custom field values set — triggers: 'create a zendesk ticket with html', 'zendesk ticket with formatting', 'add an html comment to zendesk ticket', 'update zendesk ticket content with html', 'set a custom field on a zendesk ticket'."
 icon: "🎫"
 trigger: create or update zendesk ticket with html or custom fields
-integration: quick_suite__zendesk_suite_2
+integration: quick_suite__zendesk_suite
 inputs:
   - name: subject
     description: "Ticket subject. Used only when creating (ignored on update)."
